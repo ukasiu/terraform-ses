@@ -6,7 +6,7 @@ variable "domain" {
 variable "zone_id" {
   type        = string
   description = "Route 53 zone ID for the SES domain verification"
-  default     = null
+  default     = ""
 }
 
 variable "ses_records" {

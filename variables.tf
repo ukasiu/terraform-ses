@@ -1,3 +1,7 @@
+variable "region" {
+  description = "region"
+}
+
 variable "domain" {
   description = "Domain to use for SES"
 }
